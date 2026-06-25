@@ -768,4 +768,4 @@ function updateS1MarginInfo(){
   info.innerHTML = 'Pour cost: <strong>' + pourCost + '%</strong> · Markup: <strong>×' + markup + '%</strong><br>'
     + '<span style="color:' + (mp>=55?'var(--green)':mp>=40?'var(--amber)':'var(--red)') + ';">' + rating + '</span>';
 }
-
+}
